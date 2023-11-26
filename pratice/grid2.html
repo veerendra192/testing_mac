@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>grid 2</title>
+
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: 100px 100px 100px 100px;
+      column-gap: 20px;
+      row-gap: 20px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 100px 1fr 100px;
+      margin-top: 40px;
+    }
+    .colum3 {
+      display: grid;
+      grid-template-columns: 200px 75px;
+      margin-top: 40px;
+    }
+  </style>
+
+
+<body>
+
+  <div class="grid">
+    <div style="background-color: aqua;">div1</div>
+    <div style="background-color: yellow;">div2</div>
+    <div style="background-color: aqua;">div1</div>
+    <div style="background-color: yellow;">div2</div>
+    <div style="background-color: aqua;">div1</div>
+    <div style="background-color: yellow;">div2</div>
+    <div style="background-color: aqua;">div1</div>
+    <div style="background-color: yellow;">div2</div>
+  </div>
+
+  <div class="grid-2">
+    <div style="background-color: aqua;">div1</div>
+    <div style="background-color: yellow;">div2</div>
+    <div style="background-color: aqua;">div1</div>
+  </div>
+
+  <div class="colum3">
+    <div style="background-color: antiquewhite;"> div 1</div>
+    <div style="background-color: aqua;">div 2</div>
+  </div>
+
+  
+</body>
+</html>
